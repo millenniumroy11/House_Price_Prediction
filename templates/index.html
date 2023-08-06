@@ -1,0 +1,55 @@
+{%load static%}
+<html lang="en">
+<head>
+
+    <style>
+        body{
+            background-image: url("{%static 'house2.jpg'%}");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        h1{
+            text-align: center;
+            font-size: 70px;
+            color: black;
+            margin-top: 75px;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 85px;
+            color: black;
+            margin-bottom: 70px;
+        }
+
+        input{
+            background-color: rgb(255, 98, 0);
+            color: black;
+            font-size: 20px;
+            cursor: pointer;
+            height: 50px;
+            width: 150px;
+        }
+
+        input:hover{
+            background-color: green;
+            height: 60px;
+            width: 160px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HousePricePrediction</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>WELCOME</h1>
+    <h2>House Price Prediction System</h2>
+    <form action="predict">
+        <input type="submit" value="START">
+    </form>
+</body>
+</html>
